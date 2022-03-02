@@ -1,3 +1,3 @@
-// type MyPick<T, K extends keyof T> = {
-//     [U in K] : T[U];
-// }
+type MyReadonly<T> = {
+    readonly [K in keyof T]: T[K];
+}
