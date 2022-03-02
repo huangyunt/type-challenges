@@ -1,2 +1,2 @@
 # type-challenges
-Coding for typescript
+Practice for typescript
